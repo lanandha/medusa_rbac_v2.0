@@ -1,9 +1,11 @@
 {
-  "name": "@rsc-labs/medusa-rbac",
+  "name": "medusa-rbac",
   "version": "2.0.0",
-  "description": "The RBAC functionality for MedusaJS",
-  "author": "RSC Labs (https://rsoftcon.com)",
-  "license": "SEE LICENSE IN LICENSE",
+  "main": "./.medusa/server/src/modules/rbac/index.js",
+  "types": "./.medusa/server/src/modules/rbac/types/index.js",
+  "description": "RBAC plugin for MedusaJS",
+  "author": "medusa-rbac",
+  "license": "MIT",
   "files": [
     ".medusa/server"
   ],
