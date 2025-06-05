@@ -77,6 +77,7 @@
     "node": ">=20"
   },
   "exports": {
+    ".": "./.medusa/server/src/modules/rbac/service.js",
     "./package.json": "./package.json",
     "./workflows": "./.medusa/server/src/workflows/index.js",
     "./.medusa/server/src/modules/*": "./.medusa/server/src/modules/*/index.js",
