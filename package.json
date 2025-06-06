@@ -1,7 +1,6 @@
 {
   "name": "medusa-rbac",
   "version": "2.0.0",
-  "main": "./.medusa/server/src/modules/rbac/index.js",
   "types": "./.medusa/server/src/modules/rbac/types/index.js",
   "description": "RBAC plugin for MedusaJS",
   "author": "medusa-rbac",
@@ -79,7 +78,6 @@
     "node": ">=20"
   },
   "exports": {
-    ".": "./.medusa/server/src/index.js",
     "./package.json": "./package.json",
     "./workflows": "./.medusa/server/src/workflows/index.js",
     "./.medusa/server/src/modules/*": "./.medusa/server/src/modules/*/index.js",
