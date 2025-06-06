@@ -4,14 +4,19 @@
   "types": "./.medusa/server/src/modules/rbac/types/index.js",
   "description": "RBAC plugin for MedusaJS",
   "author": "medusa-rbac",
+  "main": "dist/src/modules/rbac/index.js",
   "license": "MIT",
-  "files": [
-    ".medusa/server"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/RSC-Labs/medusa-rbac-public"
+    "url": ""
   },
+  "files": [
+    ".medusa/server",
+    "dist",
+    "!dist/**/__tests__",
+    "!dist/**/__mocks__",
+    "!dist/**/__fixtures__"
+  ],
   "keywords": [
     "medusa-plugin",
     "medusa-v2",
